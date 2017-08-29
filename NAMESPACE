@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "abline", "curve", "par", "legend")
+importFrom("FuzzyNumbers", "supp", "core", "alphacut", "plot", "TriangularFuzzyNumber", "TrapezoidalFuzzyNumber", "PowerFuzzyNumber", "as.PiecewiseLinearFuzzyNumber", "piecewiseLinearApproximation")
+importFrom("FuzzyNumbers.Ext.2", "is.increasing","is.decreasing", "is.increasing.on.x","is.decreasing.on.x","is.increasing.on.y","is.decreasing.on.y", "f2apply")
